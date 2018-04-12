@@ -1,14 +1,14 @@
 def checkvar(n):
-    for i in range(11, 21):
+    for i in range(1, 21):
         if n % i == 0:
             continue
         else:
-            return false
-        return true
+            return False
+        return True
 
-x = 2520
+x = 20
 
 while not checkvar(x):
-    x += 2520
+    x += 20
 
 print(x)
