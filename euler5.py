@@ -6,9 +6,9 @@ def checkvar(n):
             return False
         return True
 
-x = 20
+x = 2520
 
-while not checkvar(x):
-    x += 20
+while checkvar(x) = False
+    x += 2520
 
 print(x)
