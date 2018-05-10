@@ -1,0 +1,5 @@
+print("I am the magic .py file. I can guess any number you can think!")
+print()
+num = input("What number are you thinking of?\n")
+print("Aha! Your number is", num, "!")
+input()
