@@ -28,15 +28,18 @@ def checkPath(chosenPath):
     if chosenPath == str(correctPath):
         print("You find a pile of gold resting next to a priceless artifact.")
         print("You're rich!")
-        time.sleep(10)
+        time.sleep(2)
     else:
         print("You step on a plate that sinks into the ground.")
         print("Dart traps go off in every direction and you")
         print("are hit repeatedly. Your body is never found.")
-        time.sleep(10)
+        time.sleep(2)
 
 playAgain = "yes"
+
 while playAgain == "yes" or playAgain == "y":
     displayIntro()
     choice = choosePath()
     checkPath(choice)
+    print()
+    playAgain = input("Do you want to play again?: ")
