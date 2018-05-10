@@ -13,8 +13,9 @@ def choosePath():
     path = ""
     while path != "1" and path != "2":
         path = input("Which path will you choose? (1 or 2): ")
-    if path != "1" and path != "2":
-        print("That is not a valid input.")
+        if path != "1" and path != "2":
+            print("That is not a valid input.")
+            print()
     return path
 
 def checkPath(chosenPath):
