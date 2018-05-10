@@ -17,6 +17,7 @@ def choosePath():
     return path
 
 def checkPath(chosenPath):
+    print()
     print("You head down the path cautiously.")
     time.sleep(2)
     print("You don't see anything deadly, so you keep going.")
@@ -37,7 +38,7 @@ def checkPath(chosenPath):
 
 playAgain = "yes"
 
-while playAgain == "yes" or playAgain == "y":
+while playAgain.lower() == "yes" or playAgain.lower() == "y":
     displayIntro()
     choice = choosePath()
     checkPath(choice)
